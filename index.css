@@ -47,10 +47,9 @@ display: block;
   padding-top: 100px;
      width: 1520px;
     height: 700px;
-    background-image: url(csgo1.jpg);
+    background-color: #000000;
     background-size: 1520px 800px;
     background-attachment: fixed;
-    background-repeat: repeat-y;
   }
   #b{
     width: 1520px;
