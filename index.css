@@ -47,16 +47,16 @@ display: block;
   padding-top: 100px;
      width: 1520px;
     height: 700px;
-    background-image: url(laptop.jpg);
+    background-image: url(csgo1.jpg);
     background-size: 1520px 800px;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
   }
   #b{
     width: 1520px;
-    height: 720px;
+    height: 820px;
     background-image: url(csgo.jpg);
-    background-size: 1540px 650px;
+    background-size: 1540px 750px;
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-position: bottom ;
