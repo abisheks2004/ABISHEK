@@ -9,13 +9,7 @@
   }
 }
 
-@media (max-width: 576px) {
-  header {
-      font-size: 18px;
-  }
-}
-
-header{
+#head{
 width: 1520px;
 height: 100px;
   position: fixed;
