@@ -1,11 +1,21 @@
-body{
-  margin: 0%  ;
+
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
-#maindiv
-{
-  position: relative;
+@media (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
 }
-#head{
+
+@media (max-width: 576px) {
+  header {
+      font-size: 18px;
+  }
+}
+
+header{
 width: 1520px;
 height: 100px;
   position: fixed;
