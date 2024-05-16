@@ -3,30 +3,64 @@ body{
   padding: 0%;
   margin: 0%;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .container {
-    max-width: 960px;
-    margin: 0 auto; 
+    max-width: 100%;
+    margin: 0 0; 
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 500px) {
   .container {
     padding: 0 10px; 
   }
 }
+
 #head{
-width: 1520px;
+width: 100%;
 height: 100px;
   position: fixed;
   top : 0;
   left : 0;
   margin: 0%;
  background-image: url(csgo1.jpg);
- background-size: 1520px 100px ;
-display: block;
+ background-size: 100% 100px ;
     }
+      .social{
+        list-style-type: none;
+        border:2px solid #fff;
+        height:290px;
+        width:60px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        position: absolute;
+        top:200px;
+        z-index: 9000;
+        right:0;
+        position: fixed;
+        background: white;
+      }
+      
+      .social li{
+        padding:10px 0px;
+        margin-left: -30px;
+      }
+    @media (max-width:768px){
+     .quote{
+       font-size: 20px !important;
+     }
+     .social{
+       background: transparent !important;
+       border:none;
+     }
+    }
+    
     #ul1{
-      padding: 25px;
+      padding: 2%;
+      display: flex;
+     flex-direction: row;
+     list-style: none;
+     position: relative;
     }
     #name{
     color: #fffdfd;
@@ -36,8 +70,6 @@ display: block;
     text-decoration: none;
     font-family: 'Lucida Handwriting',cursive;
     font-size: 130%;
-    display: inline;
-    box-sizing: border-box;
       }
   .banner{
   color: #ffffff;
@@ -53,11 +85,10 @@ display: block;
   cursor: pointer;
   }
 #a{ 
-  padding-top: 100px;
-     width: 1520px;
+     width: 100%;
     height: 700px;
     background-color: #ffffff;
-    background-size: 1520px 800px;
+    background-size: 100% 800px;
     background-attachment: fixed;
   }
   #b{
@@ -183,4 +214,7 @@ display: block;
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: 500;
+ }
+ main{
+  margin: 0%;
  }
