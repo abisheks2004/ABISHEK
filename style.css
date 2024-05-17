@@ -17,7 +17,7 @@ body{
 
 #head{
 width: 100%;
-height: 100px;
+height: 80px;
   position: fixed;
   top : 0;
   left : 0;
@@ -55,7 +55,7 @@ height: 100px;
     }
     
     #ul1{
-      padding: 2%;
+      padding-top: 10px;
       display: flex;
      flex-direction: row;
      list-style: none;
@@ -68,7 +68,7 @@ height: 100px;
     padding-right: 500px;
     text-decoration: none;
     font-family: 'Lucida Handwriting',cursive;
-    font-size: 130%;
+    font-size: 150%;
       }
   .banner{
   color: #ffffff;
@@ -77,11 +77,13 @@ height: 100px;
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 2px;
   font-size: 25px;
-  font-weight: 525;
+  font-weight: 750;
   }
   .banner:hover{
-  color: rgb(40, 190, 180);
+  color: rgb(255, 0, 0);
+  font-style: italic;
   cursor: pointer;
+  font-weight: 750;
   }
 #a{ 
      width: 100%;
@@ -100,7 +102,7 @@ height: 100px;
     background-position: bottom ;
   }
   #c{
-    padding-top: 90px;
+    padding-top: 60px;
     width: 1520px;
     height: 700px;
     background-color: #ffffff;
@@ -121,12 +123,14 @@ height: 100px;
   #studies{
     color: #000000;
     justify-content: center;
-    padding-left: 650px;
+    padding-left: 720px;
   letter-spacing: 5.5px;
   font:  30px Georgia, serif;
   }
   #study{
-    width: 1520px;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
     height: 700px;
     display: flex;
    }
@@ -134,7 +138,7 @@ height: 100px;
     width: 500px;
     height: 600px;
     display: flow-root;
-   padding-left: 250px;
+   padding-left: 300px;
    }
  #clg{
   width: 380px;
@@ -195,6 +199,10 @@ height: 100px;
     width: 100px;
     height: 100px;
     border-radius: 5px;
+    transition:  transform 3s;
+  }
+  .studyimg:hover{
+    transform: rotate(180deg);
   }
  .p1{
   font-family: "Noto Sans",sans-serif,;
@@ -217,3 +225,58 @@ height: 100px;
  main{
   margin: 0%;
  }
+
+ #lineflow{
+  width: 5px;
+  height: 570px;
+  margin: 0%;
+  display: grid;
+  padding: 0%;
+ }
+ #lineflow1{
+  margin-top: 30px;
+  width: 3px;
+  height: 120px;
+  background-color: #1a1616;
+
+}
+#lineflow2{
+  width: 3px;
+  height: 120px;
+  background-color:  #1a1616;
+  
+}
+#lineflow3{
+  width: 3px;
+  height: 120px;
+  background-color:  #1a1616;
+  
+}
+#lineflow1:hover{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#lineflow2:hover{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#lineflow3:hover{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-color:red; }
+  10%  {background-color:yellow;  }
+  20%  {background-color:blue;}
+  30%  {background-color:#01ff01; }
+  40% {background-color:#ff00bf; }
+  50%   {background-color:#00f2ff;}
+  60%  {background-color:#ff0044; }
+  70%  {background-color:#ff0800;}
+  80%  {background-color:#ffee00; }
+  90%  {background-color:#00ff1a; }
+  100% {background-color:#ff0044;  }
+}
