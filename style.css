@@ -13,6 +13,7 @@ height: 80px;
   margin: 0%;
  background-image: url(csgo1.jpg);
  background-size: 100% 100px ;
+ z-index: 9000;
     }
       .social{
        list-style-type: none;
@@ -53,7 +54,7 @@ height: 80px;
     color: #fffdfd;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 20px;
-    padding-right: 500px;
+    padding-right: 400px;
     text-decoration: none;
     font-family: 'Lucida Handwriting',cursive;
     font-size: 150%;
@@ -95,7 +96,7 @@ height: 80px;
     height: 700px;
     background-color: #ffffff;
     background-size: 1520px 700px;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
   }
   #studies{
@@ -270,20 +271,19 @@ height: 80px;
   100% {background-color:#ff0044;  }
 }
 
-#d{ 
-  padding-top: 70px;
+#e{ 
+  padding-top: 120px;
   width: 100%;
   height: 600px;
   background-color: #ffffff;
   background-size: 100% 600px;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0;
+  z-index: 8999;
 }
 #galleries{
   display: flex;
-   position: static;
-   background-attachment: scroll;
 }
 
 .gallery {
@@ -294,6 +294,7 @@ height: 80px;
   display: grid;
   grid: auto-flow var(--s)/repeat(2,var(--s));
   gap: var(--g);
+ 
 }
 .gallery > img {
   width: 100%; 
@@ -380,7 +381,37 @@ height: 80px;
   height: 300px;
   color: #ff0000;
   justify-content: center;
+  letter-spacing: 4.0px;
+  font:  30px Georgia, serif;
+  font-weight: 600;
+}
+#f{
+width: 100%;
+height: 600px;
+padding-top: 100px;
+}
+.contact1{
+  color: #ff0303;
+    justify-content: center;
+    padding-left: 720px;
   letter-spacing: 5.0px;
   font:  30px Georgia, serif;
   font-weight: 600;
+}
+#f1{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000000;
+}
+#f2{
+  width: 450px;
+  height:450 px;
+  border: 2px solid #f40202;
+}
+#f3{
+  width: 450px;
+  height:450 px;
+  border: 2px solid #f40202;
 }
