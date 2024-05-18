@@ -39,7 +39,6 @@ height: 80px;
         position: fixed;
         background: white;
       }
-      
       .social li{
         padding:10px 0px;
         margin-left: -30px;
@@ -85,14 +84,14 @@ height: 80px;
   cursor: pointer;
   font-weight: 750;
   }
-#a{ 
+#b{ 
      width: 100%;
     height: 750px;
     background-color: #ffffff;
     background-size: 100% 800px;
     background-attachment: fixed;
   }
-  #b{
+  #a{
     width: 1520px;
     height: 820px;
     background-image: url(csgo.jpg);
@@ -121,11 +120,12 @@ height: 80px;
   }
 
   #studies{
-    color: #000000;
+    color: #ff0303;
     justify-content: center;
     padding-left: 720px;
-  letter-spacing: 5.5px;
+  letter-spacing: 5.0px;
   font:  30px Georgia, serif;
+  font-weight: 600;
   }
   #study{
     padding: 0%;
@@ -199,10 +199,13 @@ height: 80px;
     width: 100px;
     height: 100px;
     border-radius: 5px;
-    transition:  transform 3s;
+    transition: width 1s , height 1s;
   }
   .studyimg:hover{
-    transform: rotate(180deg);
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    border: 2px solid  rgb(0, 0, 0) ;
   }
  .p1{
   font-family: "Noto Sans",sans-serif,;
@@ -232,40 +235,47 @@ height: 80px;
   margin: 0%;
   display: grid;
   padding: 0%;
+  background-color: rgb(255, 255, 255);
  }
  #lineflow1{
   margin-top: 30px;
   width: 3px;
   height: 120px;
   background-color: #1a1616;
-
+  transition: width 2s , height 2s;
 }
 #lineflow2{
   width: 3px;
   height: 120px;
   background-color:  #1a1616;
-  
+  transition: width 2s , height 2s;
 }
 #lineflow3{
   width: 3px;
   height: 120px;
   background-color:  #1a1616;
-  
+  transition: width 2s , height 2s;
 }
 #lineflow1:hover{
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  width: 3px;
+  height: 150px;
 }
 #lineflow2:hover{
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  width: 3px;
+  height: 150px;
 }
 #lineflow3:hover{
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  width: 3px;
+  height: 150px;
 }
 @keyframes example {
   0%   {background-color:red; }
