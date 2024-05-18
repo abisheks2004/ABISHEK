@@ -271,7 +271,7 @@ height: 80px;
 }
 
 #d{ 
-  padding-top: 60px;
+  padding-top: 70px;
   width: 100%;
   height: 600px;
   background-color: #ffffff;
@@ -282,7 +282,7 @@ height: 80px;
 }
 #galleries{
   display: flex;
-   position: relative;
+   position: static;
    background-attachment: scroll;
 }
 
@@ -290,6 +290,7 @@ height: 80px;
   --s: 200px; /* control the size */
   --g: 8px;   /* control the gap */
   padding-left: 150px;
+  padding-right: 100px;
   display: grid;
   grid: auto-flow var(--s)/repeat(2,var(--s));
   gap: var(--g);
@@ -372,4 +373,14 @@ height: 80px;
 .gallery1 > img:nth-child(4){
   clip-path: circle(var(--_c,55% at 30% 30%));
   place-self: end;
+}
+.m1{
+  padding-top: 60px;
+  width: 300px;
+  height: 300px;
+  color: #ff0000;
+  justify-content: center;
+  letter-spacing: 5.0px;
+  font:  30px Georgia, serif;
+  font-weight: 600;
 }
