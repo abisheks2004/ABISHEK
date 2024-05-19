@@ -627,21 +627,18 @@ footer{
   height: 500px;
   display: flex;
   flex-direction: row;
-  border: 2px solid black;
  }
  .d2{
   padding-top: 50px;
   width: 400px;
   height: 500px;
   margin-left: 70px;
-  border: 2px solid black;
  }
  .d3{
   padding-top: 50px;
   width: 400px;
   height: 500px;
   margin-left: 70px;
-  border: 2px solid black;
  }
  .d2h{
   color: #000000;
@@ -668,9 +665,18 @@ footer{
   font-size: 18px;
 }
 .d4{
-  padding-top: 50px;
+  padding-top: 100px;
   width: 400px;
   height: 500px;
-  margin-left: 70px;
-  border: 2px solid black;
+  margin-left: 100px;
+}
+.d4p{
+  text-decoration: none;
+  color: rgb(4, 4, 4);
+  cursor: pointer;
+  font-family:  Courier, monospace;
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-top: 30px;
 }
