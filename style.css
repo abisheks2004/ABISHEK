@@ -76,20 +76,30 @@ height: 80px;
   letter-spacing: 2px;
   }
   #a{
-    width: 1520px;
-    height: 820px;
+    padding-top: 100px;
+    width: 100%;
+    height: 720px;
     background-image: url(lap2.jpg);
-    background-size: 1540px 750px;
+    background-size: 100% 750px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: bottom ;
+  }
+  .a1{
+    color: #ffffff;
+    font-family:  Courier, monospace;
+    font-weight: 600;
+    padding-top: 150px;
+    font-size: 60px;
+    justify-content: center;
+    text-shadow: 5px 5px 10px rgb(255, 0, 0);
   }
   .breadcrumbhead {
     font: 20px  sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
   }
   
   .breadcrumb li{
@@ -165,9 +175,6 @@ height: 80px;
   padding-top: 90px;
      width: 100%;
     height: 600px;
-    background-color: #ffffff;
-    background-size: 100% 800px;
-    background-attachment: scroll;
   }
   #bhead{
     color: #ff0303;
@@ -190,13 +197,13 @@ height: 80px;
   }
   .b2img{
     width:  400px;
-    height: 280px;
+    height: 250px;
      margin-left: 200px;
      margin-top: 80px;
      border-radius: 15px;
   }
   #b3{
-    margin-left: 20px;
+    margin-left: 30px;
     width: 600px;
     height: 500px;
     }
@@ -215,12 +222,8 @@ height: 80px;
    }
   #c{
     padding-top: 60px;
-    width: 1520px;
+    width: 100%;
     height: 700px;
-    background-color: #ffffff;
-    background-size: 1520px 700px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   }
   #studies{
     color: #ff0303;
@@ -328,10 +331,6 @@ height: 80px;
   font:  18px Georgia, serif;
   font-weight: 500;
  }
- main{
-  margin: 0%;
- }
-
  #lineflow{
   width: 5px;
   height: 570px;
@@ -396,16 +395,24 @@ height: 80px;
   90%  {background-color:#00ff1a; }
   100% {background-color:#ff0044;  }
 }
+#d{
+  padding-top: 120px;
+  width: 100%;
+  height: 600px;
+ }
+ #dhead{
+  color: #ff0303;
+    justify-content: center;
+    padding-left: 720px;
+  letter-spacing: 5.0px;
+  font:  30px Georgia, serif;
+  font-weight: 600;
+ }
 
 #e{ 
   padding-top: 120px;
   width: 100%;
   height: 600px;
-  background-color: #ffffff;
-  background-size: 100% 600px;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  margin: 0;
   z-index: 8999;
 }
 #galleries{
@@ -517,7 +524,6 @@ height: 80px;
 width: 100%;
 height: 500px;
 padding-top: 80px;
-background-color: #ffffff;
 }
 .contact1{
   color: #ff0303;
