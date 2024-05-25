@@ -3,17 +3,6 @@ body{
   padding: 0%;
   margin: 0%;
 }
-#head{
-width: 100%;
-height: 80px;
-  position: fixed;
-  top : 0;
-  left : 0;
-  margin: 0%;
- background-image: url(csgo1.jpg);
- background-size: 100% 100px ;
- z-index: 9000;
-    }
       .social{
        list-style-type: none;
         height:290px;
@@ -41,7 +30,37 @@ height: 80px;
        border:none;
      }
     }
+
+     /* Styles for desktop screens */
+  @media (min-width: 768px) {
+    .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+    }
+  
+  
+  /* Styles for mobile screens */
+  @media (max-width: 767px) {
+    .container {
+      width: 60%;
+      margin: 0 auto;
+      height: 100%;
+    }
+    }
+  
     
+    header{
+      width: 100%;
+      height:80px;
+      position: sticky;
+      top : 0;
+        left : 0;
+        margin: 0%;
+       background-image: url(csgo1.jpg);
+       background-size: 100% 80px ;
+       z-index: 9000;
+          }
     #ul1{
       padding-top: 10px;
       display: flex;
@@ -51,8 +70,8 @@ height: 80px;
     }
     #name{
     color: #fffdfd;
-    padding-left: 20px;
-    padding-right: 400px;
+    padding-left: -440px;
+    padding-right: 100px;
     text-decoration: none;
     font-family: 'Lucida Handwriting',cursive;
     font-size: 200%;
@@ -83,6 +102,7 @@ height: 80px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: bottom ;
+    justify-content: center;
   }
   .a1{
     color: #ffffff;
@@ -174,6 +194,7 @@ height: 80px;
   padding-top: 90px;
      width: 100%;
     height: 600px;
+    justify-content: center;
   }
   #bhead{
     color: #ff0303;
@@ -223,6 +244,7 @@ height: 80px;
     padding-top: 60px;
     width: 100%;
     height: 700px;
+    justify-content: center;
   }
   #studies{
     color: #ff0303;
@@ -400,6 +422,7 @@ height: 80px;
   width: 100%;
   height: 600px;
   z-index: 8999;
+  justify-content: center;
 }
 #galleries{
   display: flex;
@@ -510,6 +533,7 @@ height: 80px;
 width: 100%;
 height: 500px;
 padding-top: 80px;
+justify-content: center;
 }
 .contact1{
   color: #ff0303;
